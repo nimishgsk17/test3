@@ -1,0 +1,59 @@
+body{
+font-family: 'Oxygen', sans-serif;
+background-color:#ffff00;
+color:black; 
+}
+#header-nav{
+background-color:#006666;
+border-radius:0;
+border:0;
+color:blue; 
+}
+.navbar-brand{
+padding-top:25px;
+position:relative;  
+}
+.navbar-brand h1{
+font-family: 'Lora', serif;
+color:#00ffff;
+font-size:1.75em;
+text-transform:capitalize;
+font-weight:bold;
+text-shadow:1px 1px 1px #232323;
+margin-top:0;
+margin-bottom:0;
+line-height:.75; 
+}
+span{
+color:navy;
+font-size:1.6em; 
+}
+a>span:hover{
+background-color:yellow; 
+color:red;  
+}
+nav{
+position:sticky; 
+top:0;
+text-decoration:none;
+}
+section{
+background:red; 
+border:2px solid black; 
+width:80%;
+
+overflow:auto; 
+}
+ul{
+background-color:#00fff0;
+}
+@media(max-width:767px){
+section{
+width:100%;
+
+
+}
+}
+
+
+
